@@ -26,7 +26,7 @@ a {
   background-image: url("./images/winter-bg.jpg");
   background-size: cover;
   background-position: bottom;
-  transition: 0.4s linear ease-out;
+  transition: 0.4s ease-out;
 }
 
 .app.warm {
