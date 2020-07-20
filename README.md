@@ -1,4 +1,4 @@
-# Alex's Weather Prophecy
+# :sunny:Alex's Weather Prophecy:cloud:
 ### https://alexweatherprophecy.netlify.app/
 
 ## Case study:
