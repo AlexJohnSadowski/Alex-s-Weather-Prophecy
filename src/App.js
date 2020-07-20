@@ -77,7 +77,7 @@ function App() {
       mostFrequentItem;
     list.sort();
 
-    for (var i = 0; i < list.length; i++) {
+    for (let i = 0; i < list.length; i++) {
      let single = list[i];
      let total = list.lastIndexOf(single) - list.indexOf(single) + 1;
 
