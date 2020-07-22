@@ -23,9 +23,12 @@ And last, but not least - min. and max. temperature are shown individually for e
 - More unit tests (also configure Jest with webpack etc.)
 - CRA is certainly not the best for the SEO, so we could consider using Gatsby's hybrid nature or Next.js in order to improve the SEO optimalisation and the performance of the website overall.
 - Cards.js refactor for better reusability of the code
+- Adding more error cases/city suggestions.
 
 -------------------
 
+You will need to provide your own API key instead of the env variable!
+(Initially base_url was hidden as well, but updated the code, so it would be easier to run it :smile:)
 
 #### 'npm install'
 
@@ -36,8 +39,7 @@ then:
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+
 
 
 #### 'npm test'
