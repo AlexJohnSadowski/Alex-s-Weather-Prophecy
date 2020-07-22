@@ -22,7 +22,7 @@ And last, but not least - min. and max. temperature are shown individually for e
 - Replacing JS with TS.
 - More unit tests (also configure Jest with webpack etc.)
 - CRA is certainly not the best for the SEO, so we could consider using Gatsby's hybrid nature or Next.js in order to improve the SEO optimalisation and the performance of the website overall.
-- Cards.js refactor for better reusability of the code
+- ~~Cards.js refactor for better reusability of the code~~
 - Adding more error cases/city suggestions.
 
 -------------------
