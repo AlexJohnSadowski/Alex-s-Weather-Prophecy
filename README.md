@@ -20,7 +20,7 @@ And last, but not least - min. and max. temperature are shown individually for e
 - If the application grew bigger, I would consider using Redux or ContextAPI instead of useState hook for the easier state management. Furthermore, we could store the functions in a separate place and rely more on the encapsulation in general.
 - Possible improvements for the icon/background cases, depending on the rain/storm/snow/etc.
 - Replacing JS with TS.
-- More unit tests (also configure Jest with webpack etc.)
+- More unit tests
 - CRA is certainly not the best for the SEO, so we could consider using Gatsby's hybrid nature or Next.js in order to improve the SEO optimalisation and the performance of the website overall.
 - ~~Cards.js refactor for better reusability of the code~~
 - Adding more error cases/city suggestions.
