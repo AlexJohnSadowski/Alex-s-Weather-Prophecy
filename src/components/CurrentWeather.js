@@ -1,9 +1,11 @@
-import React from "react";
+import React, {useContext} from "react";
 import moment from "moment";
 import CurrentDetails from "./CurrentDetails";
+import  { WeatherContext }from "../context/MyContext";
 
-const CurrentWeather = ({ details, weather }) => (
-  <>
+const CurrentWeather = () => {
+  const { details, weather } = useContext(WeatherContext);
+  return (
     <div>
       <div className="city-box">
         <div className="city">
@@ -28,7 +30,7 @@ const CurrentWeather = ({ details, weather }) => (
         <CurrentDetails details={details} />
       </div>
     </div>
-  </>
-);
+  );
+};
 
 export default CurrentWeather;

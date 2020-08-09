@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+import WeatherProvider from "./context/MyContext"
 
 
 
 ReactDOM.render(
-  <React.StrictMode>
+  <WeatherProvider>
     <App />
-  </React.StrictMode>,
+  </WeatherProvider>,
   document.getElementById('root')
 );
 

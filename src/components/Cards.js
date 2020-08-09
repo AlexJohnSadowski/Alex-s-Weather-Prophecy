@@ -1,19 +1,19 @@
 import React from "react";
-import moment from "moment";
 
-import Card from './Card'
+import Card from "./Card";
 
-
-const cards = ({ details }) => (
-  <div>
-    <div className="weather__days">
-      <Card details={details} m={1} />
-      <Card details={details} m={2} />
-      <Card details={details} m={3} />
-      <Card details={details} m={4} />
-      <Card details={details} m={5} />
+const Cards = () => {
+  return (
+    <div>
+      <div className="weather__days">
+        <Card m={1} />
+        <Card m={2} />
+        <Card m={3} />
+        <Card m={4} />
+        <Card m={5} />
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
-export default cards;
+export default Cards;

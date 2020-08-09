@@ -1,6 +1,8 @@
-import React from "react";
+import React, {useContext} from "react";
+import  { WeatherContext } from "../context/MyContext";
 
-const Summary = ({ mean, mode }) => {
+const Summary = () => {
+  const { mean, mode } = useContext(WeatherContext);
   return (
     <div className="summary">
       <div className="summary__info">Mode value for the upcoming 24 hours: {mode}°c</div>
