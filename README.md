@@ -17,7 +17,7 @@ And last, but not least - min. and max. temperature are shown individually for e
 
 #### Possible improvements:
 
-- If the application grew bigger, I would consider using Redux or ContextAPI instead of useState hook for the easier state management. Furthermore, we could store the functions in a separate place and rely more on the encapsulation in general.
+- ~~If the application grew bigger, I would consider using Redux or ContextAPI instead of useState hook for the easier state management. Furthermore, we could store the functions in a separate place and rely more on the encapsulation in general.~~ Mostly done.
 - Possible improvements for the icon/background cases, depending on the rain/storm/snow/etc.
 - Replacing JS with TS.
 - More unit tests
